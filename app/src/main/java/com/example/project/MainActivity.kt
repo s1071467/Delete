@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
     override fun onClick(v:View) {
         if(v.id.equals(R.id.btnStart)){
-            intent = Intent(this@MainActivity, GamePage1::class.java)
+            intent = Intent(this@MainActivity,GamePage1::class.java)
             startActivity(intent)
 
         }else if(v.id.equals(R.id.btnExit)){
